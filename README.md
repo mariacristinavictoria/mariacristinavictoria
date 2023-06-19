@@ -24,6 +24,19 @@ f(a,b,c)
 
 print("Fin del programa")
 
+import random
+
+def buscar_numero():
+    while True:
+        aleat = random.randint(1,1000) 
+        print(aleat)
+        if aleat == 500:
+            break
+    print("Se encontró el número 500")
+
+buscar_numero()
+print("Fin del programa")
+
 
 
 
